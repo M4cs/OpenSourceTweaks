@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Nested Folders Preferences</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <false/>
+            <key>defaults</key>
+            <string>com.CDC.nestedfolderspref</string>
+            <key>key</key>
+            <string>nest</string>
+            <key>label</key>
+            <string>Nest Folders</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PsGroupCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>action</key>
+			<string>respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Credits</string>
+		</dict>
+		<dict>
+      		 <key>cell</key>
+      		 <string>PSButtonCell</string>
+      		 <key>action</key>
+      		 <string>credits</string>
+       		<key>label</key>
+       		<string>Credits</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>twitter</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>@ClarkeCDC - twitter</string>
+			<key>icon</key>
+			<string>twitter.png</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>NestedFolders Preferences</string>
+</dict>
+</plist>
