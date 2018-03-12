@@ -1,0 +1,9 @@
+Package: com.clarke1234.ezloader
+Name: EzLoader
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.3) | firmware (<< 7.0)
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Load any app from the CC
+Maintainer: Clarke1234
+Author: Clarke1234
+Section: Tweaks
